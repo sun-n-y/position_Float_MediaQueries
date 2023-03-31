@@ -1,1 +1,45 @@
 /* Postion property   */
+
+.nav {
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: sticky;
+  margin-top: 0;
+  top: 0px;
+  width: 100%;
+}
+
+div {
+  border: 3px solid blue;
+  background-color: yellow;
+  margin-top: 40px;
+}
+
+.one {
+  background-color: red;
+  color: white;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.two {
+  background-color: green;
+  color: white;
+}
+
+.special {
+  background: fuchsia;
+  font-size: 20px;
+  color: black;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+
+.container {
+  min-height: 300vh;
+  background-color: aqua;
+}
