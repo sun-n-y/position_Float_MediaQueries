@@ -1,1 +1,39 @@
 /* Media Queries:  */
+
+body {
+  background-color: green;
+}
+
+.banner {
+  background-color: white;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background-color: aqua;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: gold;
+  }
+  .banner {
+    margin-top: 160px;
+    background-color: firebrick;
+  }
+}
