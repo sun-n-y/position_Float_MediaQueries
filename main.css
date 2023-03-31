@@ -1,1 +1,32 @@
 /* float example  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 50%;
+  float: left;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+}
+.four {
+  background-color: yellow;
+}
+
+h1 {
+  clear: left;
+}
