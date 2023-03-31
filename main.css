@@ -1,1 +1,20 @@
 /* befreo after  */
+
+p::before {
+  content: "hello there ";
+  display: block;
+  background-color: aqua;
+  font-weight: bold;
+  color: red;
+  font-size: 2rem;
+}
+p::after {
+  content: "";
+  width: 100vw;
+  height: 50vh;
+  font-weight: bold;
+  display: block;
+  background-color: aqua;
+  color: blueviolet;
+  font-size: 2rem;
+}
