@@ -1,1 +1,19 @@
 /* Float Property */
+
+.banner {
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.one {
+  float: left;
+}
+
+.two {
+  float: right;
+  height: 30px;
+}
+
+p {
+  clear: both;
+}
